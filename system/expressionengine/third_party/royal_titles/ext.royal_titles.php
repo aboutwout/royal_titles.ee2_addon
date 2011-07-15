@@ -46,7 +46,6 @@ class Royal_titles_ext
 	
 	function publish_form_channel_preferences($data = array())
 	{
-	  
 	  $this->EE->load->helper('url');
 	  
 	  $title = $data['default_entry_title'];
